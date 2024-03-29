@@ -1,0 +1,47 @@
+/* Basic styling for the container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the input field */
+#taskInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the task list */
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style the task items */
+#taskList li {
+    margin-bottom: 8px;
+}
+
+/* Style the buttons */
+#addTaskBtn,
+#clearTasksBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Hover effect for buttons */
+#addTaskBtn:hover,
+#clearTasksBtn:hover {
+    background-color: #0056b3;
+}
